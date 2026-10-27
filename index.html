@@ -113,6 +113,7 @@ section.bloco + section.bloco{border-top:1px solid var(--line)}
 .reg-head h2{font-family:var(--display); font-weight:400; font-size:clamp(2rem, 8vw, 3rem); margin-top:2px}
 .reg-sub{margin-top:6px; font-weight:600}
 .reg-sub span{color:var(--muted); font-weight:500}
+.adapta{margin-top:14px; padding:12px 16px; border-radius:12px; border:1.5px dashed var(--c); background:color-mix(in oklab, var(--c) 8%, var(--surface)); font-size:.95rem; line-height:1.5; max-width:38em}
 
 .conecta{margin-top:22px; border-radius:var(--r); background:color-mix(in oklab, var(--c) 11%, var(--surface)); padding:16px 18px; display:grid; gap:10px}
 .conecta .eyebrow{color:var(--c)}
@@ -199,7 +200,7 @@ footer .linha1{white-space:nowrap; font-size:clamp(.5rem, 1.95vw, .92rem)}
     <h2>Qual doce está na sua mão?</h2>
     <p>Toque para ir direto à região dele.</p>
     <div class="doces">
-      <a class="doce" href="#norte" style="--c:var(--norte)"><svg class="mapa" viewBox="-6 -6 397 402" role="img" aria-label="Mapa do Brasil com a Região Norte em destaque"><use href="#p-norte" class="on"/><use href="#p-nordeste"/><use href="#p-sudeste"/><use href="#p-sul"/><use href="#p-centro"/></svg><b>Castanha-do-pará cristalizada</b><small>Norte</small></a>
+      <a class="doce" href="#norte" style="--c:var(--norte)"><svg class="mapa" viewBox="-6 -6 397 402" role="img" aria-label="Mapa do Brasil com a Região Norte em destaque"><use href="#p-norte" class="on"/><use href="#p-nordeste"/><use href="#p-sudeste"/><use href="#p-sul"/><use href="#p-centro"/></svg><b>Brownie com castanha-do-pará</b><small>Norte</small></a>
       <a class="doce" href="#nordeste-litoral" style="--c:var(--litoral)"><svg class="mapa" viewBox="-6 -6 397 402" role="img" aria-label="Mapa do Brasil com o litoral do Nordeste em destaque"><use href="#p-norte"/><use href="#p-nordeste" class="on"/><use href="#p-sudeste"/><use href="#p-sul"/><use href="#p-centro"/><use href="#p-costa" class="costa"/></svg><b>Cocada</b><small>Nordeste · Litoral</small></a>
       <a class="doce" href="#nordeste-sertao" style="--c:var(--sertao)"><svg class="mapa" viewBox="-6 -6 397 402" role="img" aria-label="Mapa do Brasil com o Nordeste em destaque e Caruaru marcada"><use href="#p-norte"/><use href="#p-nordeste" class="on"/><use href="#p-sudeste"/><use href="#p-sul"/><use href="#p-centro"/><circle class="pin" cx="373.8" cy="138.8" r="20"/></svg><b>Paçoca de amendoim</b><small>Nordeste · Sertão</small></a>
       <a class="doce" href="#centro-oeste" style="--c:var(--centro)"><svg class="mapa" viewBox="-6 -6 397 402" role="img" aria-label="Mapa do Brasil com o Centro-Oeste em destaque e a Cidade de Goiás marcada"><use href="#p-norte"/><use href="#p-nordeste"/><use href="#p-sudeste"/><use href="#p-sul"/><use href="#p-centro" class="on"/><circle class="pin" cx="236.4" cy="215.3" r="20"/></svg><b>Figo cristalizado</b><small>Centro-Oeste</small></a>
@@ -277,9 +278,10 @@ footer .linha1{white-space:nowrap; font-size:clamp(.5rem, 1.95vw, .92rem)}
 <section class="regiao wrap" id="norte" style="--c:var(--norte)">
   <div class="reg-head">
     <svg class="mapa" viewBox="-6 -6 397 402" role="img" aria-label="Mapa do Brasil com a Região Norte em destaque"><use href="#p-norte" class="on"/><use href="#p-nordeste"/><use href="#p-sudeste"/><use href="#p-sul"/><use href="#p-centro"/></svg>
-    <div class="txt"><span class="eyebrow">Grupo 1 · Região Norte</span><h2>Castanha-do-pará cristalizada</h2></div>
+    <div class="txt"><span class="eyebrow">Grupo 1 · Região Norte</span><h2>Brownie com castanha-do-pará</h2></div>
   </div>
-  <p class="reg-sub">Porções de castanha-do-pará cristalizada <span>· A semente gigante da Floresta Amazônica</span></p>
+  <p class="reg-sub">Brownies com castanha-do-pará <span>· A semente gigante da Floresta Amazônica</span></p>
+  <p class="adapta"><b>Uma adaptação com recurso regional.</b> O brownie não é um doce tradicional do Norte: a receita foi adaptada para valorizar a castanha-do-pará, ingrediente típico da Amazônia.</p>
 
   <div class="conecta">
     <span class="eyebrow">Onde tudo se encontra</span>
@@ -292,9 +294,9 @@ footer .linha1{white-space:nowrap; font-size:clamp(.5rem, 1.95vw, .92rem)}
 
   <div class="textos">
     <div><h3>Território e alimento</h3><p>A castanha-do-pará é a semente comestível da castanheira (<em>Bertholletia excelsa</em>), árvore da Floresta Amazônica. As sementes ficam dentro de um fruto duro chamado ouriço. Apesar do nome, ela não ocorre apenas no Pará: está presente em diferentes áreas da Amazônia, no Brasil e em outros países. Também é conhecida como castanha-do-Brasil.</p></div>
-    <div><h3>Tradição e alimentação</h3><p>Povos indígenas e outras comunidades amazônicas usam a castanha na alimentação e conservam conhecimentos sobre sua coleta e preparo. Ela pode ser consumida diretamente, virar farinha ou leite de castanha, que aparece, por exemplo, em pratos com pirarucu. O alimento se liga à região pela origem na floresta e pelos costumes das comunidades. Na versão cristalizada, a castanha recebe uma cobertura de açúcar e vira doce, uma forma de valorizar esse ingrediente amazônico.</p></div>
+    <div><h3>Tradição e alimentação</h3><p>Povos indígenas e outras comunidades amazônicas usam a castanha na alimentação e conservam conhecimentos sobre sua coleta e preparo. Ela pode ser consumida diretamente, virar farinha ou leite de castanha, que aparece, por exemplo, em pratos com pirarucu. O alimento se liga à região pela origem na floresta e pelos costumes das comunidades. No brownie, a castanha entra como ingrediente principal da receita, levando o sabor da floresta para um doce conhecido em todo o país.</p></div>
     <div><h3>Trabalho e renda</h3><p>Os coletores recolhem os ouriços caídos e retiram as castanhas. A venda, a seleção, o beneficiamento e a comercialização geram oportunidades de renda para famílias e cooperativas. O extrativismo pode aproveitar os recursos da floresta sem derrubar as castanheiras, quando feito com manejo adequado e proteção do território.</p></div>
-    <div><h3>Empreendedorismo</h3><p>A castanha mostra como um recurso da floresta pode se tornar um negócio de valor. Cada etapa da cadeia de fornecedores (seleção, beneficiamento, porcionamento e embalagem) agrega valor ao produto, e a origem amazônica e a coleta responsável podem ser apresentadas como diferenciais. As cooperativas revelam a força de empreender em grupo: juntas, as famílias ganham escala para negociar e alcançar novos mercados.</p></div>
+    <div><h3>Empreendedorismo</h3><p>A castanha mostra como um recurso da floresta pode se tornar um negócio de valor. Cada etapa da cadeia de fornecedores (seleção, beneficiamento, porcionamento e embalagem) agrega valor ao produto, e a origem amazônica e a coleta responsável podem ser apresentadas como diferenciais. As cooperativas revelam a força de empreender em grupo: juntas, as famílias ganham escala para negociar e alcançar novos mercados. O brownie com castanha mostra outra estratégia empreendedora: adaptar uma receita conhecida com um recurso regional, criando um produto novo com identidade amazônica.</p></div>
   </div>
 
   <div class="ods-box">
@@ -497,7 +499,7 @@ footer .linha1{white-space:nowrap; font-size:clamp(.5rem, 1.95vw, .92rem)}
     8:[["Doce de leite","sudeste","salários justos e segurança para quem produz"],["Bala de banana","sul","empregos dignos gerados pelas fábricas de Antonina"]],
     9:[["Bala de banana","sul","inovação em equipamentos, embalagens e transporte"]],
     12:[["Figo cristalizado","centro-oeste","aproveitar frutas que seriam desperdiçadas"]],
-    15:[["Castanha-do-pará cristalizada","norte","coleta com manejo que conserva a floresta"]]
+    15:[["Brownie com castanha-do-pará","norte","coleta com manejo que conserva a floresta"]]
   };
   var grid = document.getElementById("odsGrid"), info = document.getElementById("odsInfo");
   function mostra(n){
@@ -521,7 +523,7 @@ footer .linha1{white-space:nowrap; font-size:clamp(.5rem, 1.95vw, .92rem)}
 
   // Quiz
   var Q = [
-    ["Castanha-do-pará cristalizada", [15,8,12], 15, "Coletar só os ouriços caídos, com manejo, mantém a floresta de pé."],
+    ["Brownie com castanha-do-pará", [15,8,12], 15, "Coletar só os ouriços caídos, com manejo, mantém a floresta de pé."],
     ["Cocada", [9,2,3], 2, "A cadeia de fornecedores da cocada começa no campo: solo, água e agricultura familiar."],
     ["Paçoca de amendoim", [12,15,3], 3, "No São João, reencontrar pessoas e compartilhar memórias faz bem."],
     ["Figo cristalizado", [12,2,9], 12, "Virar doce é um jeito de não desperdiçar frutas boas."],
